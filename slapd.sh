@@ -39,4 +39,5 @@ fi
 
 status "starting slapd"
 set -x
+ulimit -n 1024
 exec /usr/sbin/slapd -h "ldap:///" -u openldap -g openldap -d 0
