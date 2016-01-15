@@ -1,7 +1,9 @@
 ## Usage
 
-  ./start-ldap-server.sh <organisation-name> <user1> <user2> ...
-  eg: ./start-ldap-server.sh test_org foo bar baz
+  `./start-ldap-server.sh <organisation-name> <user1> <user2> ...`
+  
+  eg: `./start-ldap-server.sh test_org foo bar baz`
+  
   Here test-org is the name of the organisation. foo, bar and baz are three users added to that org.
   
 ## slapd
